@@ -14,9 +14,13 @@ p.more {
   border-top: 0;
   border-right: 0;
   border-left: 0;
-  border-bottom: 2px solid #464646;
+  background-color: rgb(252, 223, 176);
+  border-bottom: 2px solid rgb(192, 176, 247);
+  border-radius: 4px;
   font-size: 16px;
 }
+
+
 
 .menu.collapsible > li {
   cursor: pointer;
@@ -30,4 +34,154 @@ p.more {
   display: none;
 }
 
-/* Your code here */
+* {
+  font: 'Helvetica Neue' 'Helvetica' sans-serif;
+  color:#464646;
+}
+body {
+  
+  background-image: linear-gradient(to top right,  rgb(148, 207, 255), rgb(239, 206, 166), rgb(177, 248, 230));
+
+}
+
+.page-container {
+ width: 90%;
+ margin: 0 auto;
+}
+
+
+#langlinks option {
+  background-color: rgb(199, 232, 228);
+}
+
+
+ 
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  padding: 0;
+}
+
+ul > li {
+  list-style-type: none;
+}
+
+
+
+
+
+a:visited,
+a:visited > span {
+  color: #800080;
+  
+}
+a:hover > span,
+a:hover {
+  color:#800080;
+  font-weight: bolder;
+}
+
+
+ 
+
+.page-container {
+  max-width: 1200px;
+}
+
+#leftbar, #center,
+#rightbar {
+  float: left;
+  padding: 0 30px;
+  box-sizing: border-box;
+}
+
+footer {
+  clear: both;
+}
+
+#leftbar, #rightbar {
+  width: 25%;
+}
+ 
+#center {
+  width: 50%;
+  border: 1px solid #464646;
+  border-radius: 10px;
+  box-shadow: 2px 2px 15px #464646;
+}
+
+#center > div {
+  float: left;
+  width: 33%;
+}
+
+#topban  h2 {
+  text-align: center;
+  color: purple;
+  text-shadow: 3px 4px 13px ;
+}
+
+ul.clfooter {
+  text-align: center;
+  border-top: 1px solid gray;
+  padding: 10px 0;
+}
+
+ul.clfooter > li {
+  display: inline;
+  padding-right: 5px;
+}
+
+h4.ban::before {
+  content: '☮️ ';
+}
+
+td {
+  border: 1px solid #333;
+}
+
+table.cal {
+  border-collapse: collapse;
+}
+
+.cal a {
+  color: green;
+  font-weight: bold;
+}
+
+.cal td {
+  text-align: center;
+}
+
+.past {
+  color: rgba(0, 0, 0, .5);
+}
+
+.past:hover {
+  cursor: not-allowed;
+}
+
+.today a{
+  background-color: darkviolet;
+  color: white;
+}
+
+.today {
+  background-color: darkviolet;
+}
+
+.cal  td:hover {
+  background-color: lavender;
+}
+
+.cal a:hover {
+  background-color: lavender;
+}
+
+
+
+
+
